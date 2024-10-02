@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slido</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.4/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded">
+    <div class="container flex flex-wrap justify-between items-center mx-auto">
+     
+      <a href="#" class="flex items-center">
+        <img src="./media/logo.svg" class="h-6 mr-3" alt="logo">
+      </a>
+  
+      
+      <div class="hidden w-full lg:flex lg:items-center lg:w-auto" id="navbar-default">
+        <ul class="flex flex-col mt-4 lg:flex-row lg:space-x-8 lg:mt-0 lg:pl-36">
+          <li><a href="#" class="block py-2 pr-4 pl-3 text-gray-700 hover:text-green-700 lg:p-0">Product</a></li>
+          <li><a href="#" class="block py-2 pr-4 pl-3 text-gray-700 hover:text-green-700 lg:p-0">Solutions</a></li>
+          <li><a href="#" class="block py-2 pr-4 pl-3 text-gray-700 hover:text-green-700 lg:p-0">Pricing</a></li>
+          <li><a href="#" class="block py-2 pr-4 pl-3 text-gray-700 hover:text-green-700 lg:p-0">Resources</a></li>
+          <li><a href="#" class="block py-2 pr-4 pl-3 text-gray-700 hover:text-green-700 lg:p-0">Enterprise</a></li>
+        </ul>
+      </div>
+  
+      
+      <div class="flex items-center lg:ml-auto mt-4 lg:mt-0">
+        <a href="#" class="mr-4 text-gray-700 hover:text-green-700">Log In</a>
+        <button type="button" class="focus:outline-none text-white bg-green-700 hover:bg-black focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5">
+          Sign Up
+        </button>
+        
+        
+        <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-default" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M3 5h14a1 1 0 010 2H3a1 1 0 110-2zm0 4h14a1 1 0 010 2H3a1 1 0 110-2zm0 4h14a1 1 0 110 2H3a1 1 0 110-2z" clip-rule="evenodd"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="bg-gray-100 h-8 w-full flex justify-center items-center px-4 text-center">
+    <span class="text-sm lg:text-base">Join a live training to learn how to navigate our new interface effortlessly! 
+      <a class="text-green-800 font-bold underline decoration-green-800" href="#">Register now.</a>
+    </span>
+  </div>
+
+  <!-- home -->
+<section>
+  <div class="flex mt-10 flex-col items-center">
+    <div class="bg-blue-900 text-white text-xs uppercase font-bold rounded-full p-0.5 w-full max-w-md flex items-center mx-auto whitespace-nowrap">
+      <span class="font-bold text-xl ml-3">Joining as a participant?</span>
+      <div class="bg-white text-blue-900 text-xs uppercase font-bold rounded-full p-3 ml-4 flex items-center  border-2 sm:w-1/2">
+        # Enter code here
+        <div class="bg-blue-900 text-white rounded-full p-2 ml-3 flex items-center justify-center">&rarr;</div>
+      </div>
+    </div>
+
+    <div class="text-center mt-6 w-full">
+      <h1 class="font-bold text-3xl sm:text-4xl lg:text-6xl leading-tight">The easiest way to make <br class="hidden sm:block"/> your meetings interactive</h1>
+      <p class="mt-4 text-lg">
+        Engage your participants with live polls, Q&A, quizzes, and word clouds<br class="hidden sm:block"/>— whether you meet in the office, online, or in-between.
+      </p>
+      <button class="mt-6 bg-green-700 text-white font-bold py-3 px-6 rounded-lg">
+        Get started for free
+      </button>
+    </div>
+
+    <div class="flex justify-center mt-8 w-full">
+      <video src="./media/video-1.mp4" class="w-full max-w-lg rounded-lg" autoplay muted></video>
+    </div>
+  </div>
+    <div class="bg-red-50 w-full lg:h-60 p-5 sm:h-96 ">
+        <h4 class="text-center text-4xl font-semibold">Works standalone and with your favorite tools</h4>
+        <div class="flex gap-16 justify-center m-10 ">
+          <div class="lg:flex lg:gap-16 sm:">
+            <div class="flex flex-col items-center sm:mb-10">
+              <img src="./media/webex.svg" alt="Webex logo"> 
+              <span>Webex</span>
+          </div>
+          <div class="flex flex-col items-center">
+              <img src="./media/ppt.svg" alt="PowerPoint logo">
+              <span>PowerPoint</span>
+          </div>
+          </div>
+          <div class="flex flex-col items-center sm:mt-36 lg:mt-4">
+            <img src="./media/zoom.svg" alt="Zoom logo">
+            <span>Zoom</span>
+        </div>
+          <div class="lg:flex lg:gap-16 ">
+            <div class="flex flex-col items-center sm:mb-10">
+              <img src="./media/teams.svg" alt="Microsoft Teams logo">
+              <span>Microsoft  Teams</span>
+          </div>
+          <div class="flex flex-col items-center">
+              <img src="./media/slides.svg" alt="Google Slides logo">
+              <span>Google Slides</span>
+          </div>
+          </div>
+           
+        </div>
+        
+    </div>
+</section>
+<section class="m-10">
+  <div class="text-center m-10">
+    <h2 class="text-3xl sm:text-5xl font-semibold mb-10">It’s how you <span class="text-green-800 font-bold decoration-green-800">include everyone</span> in your meetings</h2>
+    <p class="text-base sm:text-lg mb-10 sm:mb-32">Slido gives you everything you need to engage your participants, capture their views and make everyone feel connected – whether you’re running a team call, training, or an all-company meeting.</p>
+  </div>
+
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+   
+    <div class="flex justify-center w-full">
+      <video src="./media/2.mp4" class="w-full max-w-md rounded-lg" autoplay muted></video>
+    </div>
+   
+    <div class="space-y-4 p-4">
+      
+      <div class="accordion-item">
+        <input type="checkbox" id="accordion-toggle-1" class="hidden peer" />
+        <label for="accordion-toggle-1" class="flex items-center justify-between w-full p-5 font-semibold text-2xl sm:text-3xl rounded-lg cursor-pointer peer-checked:shadow-lg peer-focus:shadow-lg transition-all duration-300">
+          <span class="flex items-center gap-3"><img src="./media/live.svg" alt="live polls" class="w-8 h-8"> Live polls</span>
+          <svg class="w-3 h-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5" />
+          </svg>
+        </label>
+        <div class="accordion-content max-h-0 overflow-hidden peer-checked:max-h
+        -auto transition-max-height duration-300">
+        <p class="p-5">Make your meetings more interactive by polling your participants in real-time.</p>
+      </div>
+    </div>
+
+   
+    <div class="accordion-item">
+      <input type="checkbox" id="accordion-toggle-2" class="hidden peer" />
+      <label for="accordion-toggle-2" class="flex items-center justify-between w-full p-5 font-semibold text-2xl sm:text-3xl rounded-lg cursor-pointer peer-checked:shadow-lg peer-focus:shadow-lg transition-all duration-300">
+        <span class="flex items-center gap-3"><img src="./media/q.svg" alt="Q&A" class="w-8 h-8"> Q&A</span>
+        <svg class="w-3 h-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5" />
+        </svg>
+      </label>
+      <div class="accordion-content max-h-0 overflow-hidden peer-checked:max-h-auto transition-max-height duration-300">
+        <p class="p-5">Let your participants ask questions and vote on their favorites to get the best answers.</p>
+      </div>
+    </div>
+
+    
+    <div class="accordion-item">
+      <input type="checkbox" id="accordion-toggle-3" class="hidden peer" />
+      <label for="accordion-toggle-3" class="flex items-center justify-between w-full p-5 font-semibold text-2xl sm:text-3xl rounded-lg cursor-pointer peer-checked:shadow-lg peer-focus:shadow-lg transition-all duration-300">
+        <span class="flex items-center gap-3"><img src="./media/cup.svg" alt="Quizzes" class="w-8 h-8"> Quizzes</span>
+        <svg class="w-3 h-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5" />
+        </svg>
+      </label>
+      <div class="accordion-content max-h-0 overflow-hidden peer-checked:max-h-auto transition-max-height duration-300">
+        <p class="p-5">Gamify your meeting and get instant feedback from your participants with fun and engaging quizzes.</p>
+      </div>
+    </div>
+
+    
+    <div class="accordion-item">
+      <input type="checkbox" id="accordion-toggle-4" class="hidden peer" />
+      <label for="accordion-toggle-4" class="flex items-center justify-between w-full p-5 font-semibold text-2xl sm:text-3xl rounded-lg cursor-pointer peer-checked:shadow-lg peer-focus:shadow-lg transition-all duration-300">
+        <span class="flex items-center gap-3"><img src="./media/a.svg" alt="Word Cloud" class="w-8 h-8"> Word Cloud</span>
+        <svg class="w-3 h-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5" />
+        </svg>
+      </label>
+      <div class="accordion-content max-h-0 overflow-hidden peer-checked:max-h-auto transition-max-height duration-300">
+        <p class="p-5">Capture the mood and thoughts of your audience with a live word cloud.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- cards -->
+<div class="flex flex-col lg:flex-row justify-center lg:m-20 gap-10">
+  <div class="max-w-sm p-6 bg-red-50">
+      <img src="./media/love.svg" alt="Intuitive and easy">
+      <a href="#">
+          <h5 class="mb-2 text-xl lg:text-2xl font-bold tracking-tight text-gray-900">Intuitive and easy</h5>
+      </a>
+      <p class="mb-3 font-normal text-gray-700">The attendees can join without any logins or downloads, and the setup for hosts takes only minutes.</p>
+  </div>
+
+  <div class="max-w-sm p-6 bg-red-50">
+      <img src="./media/pad.svg" alt="5+ polling options">
+      <a href="#">
+          <h5 class="mb-2 text-xl lg:text-2xl font-bold tracking-tight text-gray-900">5+ polling options</h5>
+      </a>
+      <p class="mb-3 font-normal text-gray-700">With Slido’s 5 types of polls, Q&A, quizzes, and surveys, you can engage your participants in a variety of ways.</p>
+  </div>
+
+  <div class="max-w-sm p-6 bg-red-50">
+      <img src="./media/gift.svg" alt="Get started for free">
+      <a href="#">
+          <h5 class="mb-2 text-xl lg:text-2xl font-bold tracking-tight text-gray-900">Get started for free</h5>
+      </a>
+      <p class="mb-3 font-normal text-gray-700">Start with our forever-free Basic plan, or get more from Slido for only US$12.5 per month.</p>
+  </div>
+</div>
+
+<!-- tag -->
+<div class="flex flex-col sm:flex-row lg:m-20 p-10 lg:p-20 justify-between items-center gap-5">
+  <img class="w-24 lg:w-36" src="./media/leader.svg" alt="tag1">
+  <img class="w-24 lg:w-36" src="./media/best.svg" alt="tag2">
+  <img class="w-24 lg:w-36" src="./media/most.svg" alt="tag3">
+</div>
+
+</section>
+<section>
+  <h2 class="text-center text-3xl sm:text-5xl font-semibold mb-8">Trusted by 750K customers worldwide</h2> 
+
+  <div class="overflow-x-auto">
+    <div class="flex space-x-4">
+        <!-- Card 1 -->
+        <div class="flex-shrink-0 w-full rounded-lg p-4 flex flex-col sm:flex-row">
+            <div class="w-full sm:w-2/3">
+                <img class="mb-10" src="./media/z.svg" alt="Zapier Logo">
+                <p class="mt-2 font-normal text-lg sm:text-3xl mb-10">"We love Slido at Zapier. We're a 100% remote company and we use Slido during our weekly all-hands meetings to make sure that every team member gets a voice, no matter where they are or what they want to discuss."</p>
+                <span>Wade Foster, Co-Founder & CEO</span>
+            </div>
+            <div class="w-full sm:w-1/3 m-5 p-3">
+                <img src="./media/man.png" alt="Wade Foster Image">
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="flex-shrink-0 w-full rounded-lg p-4 flex flex-col sm:flex-row">
+            <div class="w-full sm:w-2/3">
+                <img class="mb-10" src="./media/c.svg" alt="Cisco Logo">
+                <p class="mt-2 font-normal text-lg sm:text-3xl mb-10">"Slido enabled our leader Wendy to truly have a transparent, meaningful conversation with our audience."</p>
+                <span>Aaron Williams, Communications Manager at Cisco</span>
+            </div>
+            <div class="w-full sm:w-1/3 m-5 p-3">
+                <img src="./media/women.png" alt="Aaron Williams Image">
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="flex-shrink-0 w-full rounded-lg p-4 flex flex-col sm:flex-row">
+            <div class="w-full sm:w-2/3">
+                <img class="mb-10" src="./media/s.svg" alt="Strategy Logo">
+                <p class="mt-2 font-normal text-lg sm:text-3xl mb-10">"The biggest value of Slido for us is having more lively, interactive meetings. Without Slido, it would just be the executives talking one way."</p>
+                <span>Norito Yonezawa, Corporate Strategy Planner</span>
+            </div>
+            <div class="w-full sm:w-1/3 m-5 p-3">
+                <img src="./media/man-2.png" alt="Norito Yonezawa Image">
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="flex flex-wrap bg-red-50 p-5 sm:p-20 justify-between w-full gap-4">
+      <img src="./media/b-1.svg" alt="Brand 1" class="max-w-full h-auto">
+      <img src="./media/b-2.svg" alt="Brand 2" class="max-w-full h-auto">
+      <img src="./media/b-3.svg" alt="Brand 3" class="max-w-full h-auto">
+      <img src="./media/b-4.svg" alt="Brand 4" class="max-w-full h-auto">
+      <img src="./media/b-5.svg" alt="Brand 5" class="max-w-full h-auto">
+      <img src="./media/b-6.svg" alt="Brand 6" class="max-w-full h-auto">
+      <img src="./media/b-7.svg" alt="Brand 7" class="max-w-full h-auto">
+      <img src="./media/b-8.svg" alt="Brand 8" class="max-w-full h-auto">
+  </div>
+
+  <div class="bg-green-700 pt-10 pb-20 text-center">
+      <h3 class="text-white font-semibold text-3xl sm:text-5xl mb-10">Make your meetings more <br/>interactive with Slido.</h3>
+      <button class="text-black bg-white w-32 h-12 rounded-sm font-semibold">Try it free</button>
+  </div>
+</section>
+ 
+<section>
+  <div class="m-10 flex flex-col lg:flex-row sm:flex-wrap gap-10">
+      <!-- Logo -->
+      <div>
+          <img src="./media/logo.svg" class="h-6" alt="Logo">
+      </div>
+      
+      <!-- Links Sections -->
+      <div class="flex flex-col lg:ml-28 sm:ml-3 gap-6">
+         <a class="font-semibold">Product</a> 
+         <a>Product Tour</a>
+         <a>Q&A</a>
+         <a>Quizzes</a>
+         <a>Analytics</a>
+         <a>Integrations</a>
+      </div>
+
+      <div class="flex flex-col lg:ml-28 sm:ml-3 gap-6">
+          <a class="font-semibold">Integrations</a>
+          <a>PowerPoint</a>
+          <a>Google Slides</a>
+          <a>Webex</a>
+          <a>Zoom</a>
+          <a>Microsoft Teams</a>
+          <a>Live Video</a>
+          <a>Embed Slido</a>
+      </div>
+
+      <div class="flex flex-col lg:ml-28 sm:ml-3 gap-6">
+          <a class="font-semibold">Pricing</a> 
+          <a>One-time Plans</a>
+          <a>Annual Plans</a>
+          <a>Education Plans</a>
+          <a>Enterprise</a>
+      </div>
+
+      <div class="flex flex-col lg:ml-28 sm:ml-3 gap-6">
+          <a class="font-semibold">Resources</a> 
+          <a>Product Tour</a>
+          <a>Q&A</a>
+          <a>Quizzes</a>
+          <a>Analytics</a>
+          <a>Integrations</a>
+      </div>
+
+      <div class="flex flex-col lg:ml-28 sm:ml-3 gap-6">
+          <a class="font-semibold">Company</a> 
+          <a>Product Tour</a>
+          <a>Q&A</a>
+          <a>Quizzes</a>
+          <a>Analytics</a>
+          <a>Integrations</a>
+      </div>
+  </div>
+
+  <!-- Social Media  -->
+  <div class="bg-red-50 p-5 lg:flex justify-between items-center">
+      <div class="flex lg:ml-20 gap-10 sm:justify-center">
+          <img src="./media/leader.svg" alt="Leader Badge">
+          <img src="./media/best.svg" alt="Best Badge">
+          <img src="./media/most.svg" alt="Most Badge">
+      </div>
+
+      <div class="flex justify-center sm:justify-center gap-4 mt-4">
+          <img src="./media/f.svg" alt="Facebook">
+          <img src="./media/t.svg" alt="Twitter">
+          <img src="./media/in.svg" alt="LinkedIn">
+          <img src="./media/i.svg" alt="Instagram">
+          <img src="./media/you.svg" alt="YouTube">
+      </div>
+
+      <div class="hidden lg:flex flex-col gap-3">
+          <a>Choose a language: English (International)</a>
+          <div class="flex gap-4">
+            <span>Privacy Statement</span>
+            <span>Cookie Settings</span>
+            <span>Status Page</span>
+          </div>
+
+      </div>
+  </div>
+
+  <!-- Mobile View for Privacy Links -->
+  <div class="flex flex-col items-center text-center  mt-5 mb-5 lg:hidden">
+      <a>Privacy Statement</a>
+      <a>Cookie Settings</a>
+      <a>Status Page</a>
+      <a class="mt-5">Choose a language: English (International)</a>
+  </div>
+</section>
+
+</body>
+<footer>
+  <div class="flex flex-col sm:flex-row justify-center items-center gap-5 m-5 bg-gray-50 p-5">
+    <span class="text-gray-600 text-center sm:text-left">© 2024 Cisco Systems, Inc. All rights reserved.</span>
+    <img src="./media/web.svg" alt="Webex Logo" class="w-18 h-15">
+    <span class="text-gray-600 text-center sm:text-left">Slido is now part of Webex.</span>
+  </div>
+</footer>
+
+</html>
